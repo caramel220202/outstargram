@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:text="프로필 편집"
+        android:textColor="#1d1d1d"
+        android:layout_marginLeft="23dp"
+        android:layout_marginBottom="16dp"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImg"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        app:civ_border_overlay="true"
+        app:civ_border_width="5dp"
+        app:civ_border_color="#000000"
+        android:src="@drawable/btn_outsta_my"
+        />
+
+    <TextView
+        android:id="@+id/changeImg"
+        android:layout_width="144dp"
+        android:layout_height="42dp"
+        android:background="@drawable/outstar_login_db"
+        android:text="변경하기"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="19dp"
+        android:textColor="@color/white"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".OutstarLoginActivity">
+
+    <ImageView
+        android:layout_width="196dp"
+        android:layout_height="43dp"
+        android:src="@drawable/logo_outstagram"
+        android:layout_marginTop="111dp"
+        android:layout_marginBottom="144dp"
+        />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/id_iput"
+            android:layout_width="356dp"
+            android:layout_height="62dp"
+            android:hint="아이디"
+            android:paddingLeft="27dp"
+            android:textColorHint="#070707"
+            android:background="@drawable/outstar_input_bg"
+            android:layout_marginBottom="20dp"/>
+        <EditText
+            android:id="@+id/pw_input"
+            android:layout_width="356dp"
+            android:layout_height="62dp"
+            android:hint="비밀 번호"
+            android:inputType="textPassword"
+            android:textColorHint="#070707"
+            android:paddingLeft="27dp"
+            android:background="@drawable/outstar_input_bg"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <TextView
+        android:id="@+id/outstarJoin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="43dp"
+        android:textColor="#1868e8"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="90dp"
+        android:text="가입하기"/>
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="162dp"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:background="@drawable/outstar_login_db"
+        android:text="로그인"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
